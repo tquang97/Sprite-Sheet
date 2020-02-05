@@ -37,7 +37,10 @@ class Sprite():
 # sprite = Sprite(1, "Hello", 0, 0, 0)
 # print(sprite)
 
-# # Example valid cordinate
+# sprite = Sprite(1, 145, 208, 12, 23)
+# print(sprite)
+
+# Example valid cordinate
 # sprite = Sprite(1, 12, 23, 145, 208)
 # print(sprite.label)
 # print(sprite.width)
