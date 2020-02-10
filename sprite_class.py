@@ -1,4 +1,9 @@
 class Sprite():
+    """
+    Class sprite that show label, width, height, top_left and bottom right of image
+    label: Image's labe
+    x1, x2, y1, y2: cordinates of image
+    """
     def __init__(self, label, x1, y1, x2, y2):
         if any(not isinstance(i, int) for i in [x1, x2, y1, y2]):
             raise ValueError('Invalid coordinates')

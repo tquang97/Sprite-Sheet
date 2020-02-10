@@ -7,7 +7,7 @@ def find_most_common_color(image):
     """
     Find pixel color that is the most commond use in image
     image: an Image object
-    return: the most commond color in image
+    return: the most commond color
     """
     image = Image.open(image)
     width, height = image.size
@@ -20,6 +20,11 @@ def find_most_common_color(image):
     
 
 def image_mode(image):
+    """
+    Show mode of image is 'RGB' or 'RGBA'
+    image: an Image object
+    return: mode
+    """
     image = Image.open(image)
     mode = image.mode
     return mode
