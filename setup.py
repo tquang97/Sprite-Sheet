@@ -26,6 +26,6 @@ setup(
     include_package_data=True,
     install_requires=[
         "numpy==1.18.1",
-        "Pillow==7.0.0 ",
+        "Pillow==9.0.0 ",
     ]
 )
