@@ -25,7 +25,7 @@ setup(
     packages=["spritessheettquang97"],
     include_package_data=True,
     install_requires=[
-        "numpy==1.18.1",
+        "numpy==1.22.0",
         "Pillow==7.0.0 ",
     ]
 )
